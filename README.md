@@ -72,7 +72,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Live Demo
 
-Check out the live demo: [here](https://chat-blue-beta-31.vercel.app/).
+Check out the live demo: [here](https://8bit-dashboard-lime.vercel.app/).
 
 ### Contact Me
 
