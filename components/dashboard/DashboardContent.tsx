@@ -1,20 +1,13 @@
 "use client";
 
-import { SidebarTrigger } from "@/components/ui/sidebar";
+import { Badge } from "@/components/ui/8bit/badge";
+import { Button } from "@/components/ui/8bit/button";
 import {
     Card,
     CardContent,
     CardHeader,
     CardTitle,
 } from "@/components/ui/8bit/card";
-import {
-    Table,
-    TableBody,
-    TableCell,
-    TableHead,
-    TableHeader,
-    TableRow,
-} from "@/components/ui/8bit/table";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -23,19 +16,25 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/8bit/dropdown-menu";
-import { Button } from "@/components/ui/8bit/button";
 import { Input } from "@/components/ui/8bit/input";
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
+} from "@/components/ui/8bit/table";
+import { SidebarTrigger } from "@/components/ui/sidebar";
 import {
     ArrowDownIcon,
     ArrowUpIcon,
     DollarSign,
     MoreHorizontal,
     Package,
-    Search,
     ShoppingCart,
-    Users,
+    Users
 } from "lucide-react";
-import { Badge } from "@/components/ui/8bit/badge";
 import { ModeToggle } from "../ui/ModeToggle";
 
 const products = [
